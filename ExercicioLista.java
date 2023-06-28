@@ -28,7 +28,6 @@ class ExercicioLista {
             if (prosseguir == 0) {
                 processo = false;
             }
-            scanner.close();
             Collections.sort(lista);
             System.out.println(lista);
         }
